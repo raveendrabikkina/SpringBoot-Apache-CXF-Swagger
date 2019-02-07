@@ -1,0 +1,11 @@
+server:
+  port: 8383
+  servlet-path: /
+management:
+  security.enabled: false
+cxf:
+  path: /api
+  jaxrs:
+    component-scan: true
+  servlet.init:
+    service-list-path: /info
