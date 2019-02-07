@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider;
 
 @Configuration
-public class ProvidersConfig {
+public class JaxrsProviders {
 
 	@Bean
 	public JacksonJsonProvider jsonProvider() {
