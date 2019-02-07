@@ -1,5 +1,8 @@
 package com.springboot.jaxrs.model;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement(name = "Person")
 public class Patient {
 	String name;
 	long id;

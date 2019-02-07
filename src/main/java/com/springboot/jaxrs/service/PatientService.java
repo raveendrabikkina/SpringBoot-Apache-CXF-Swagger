@@ -17,7 +17,7 @@ import io.swagger.annotations.ApiResponses;
 
 @Api
 @Path("/patientservice")
-@Produces(MediaType.APPLICATION_JSON)
+@Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
 public interface PatientService {
 
 	@GET
