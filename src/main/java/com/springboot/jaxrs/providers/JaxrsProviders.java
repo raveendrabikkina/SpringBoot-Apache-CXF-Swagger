@@ -10,6 +10,11 @@ public class JaxrsProviders {
 
 	@Bean
 	public JacksonJsonProvider jsonProvider() {
+		/*
+		 * This can be added in application.yml to enable this other way
+		 *	classes-scan: true
+		 * 	classes-scan-packages: com.springboot,com.fasterxml.jackson.jaxrs
+		 */
 		return new JacksonJsonProvider();
 	}
 }
