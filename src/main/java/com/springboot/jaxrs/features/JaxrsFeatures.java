@@ -14,10 +14,6 @@ public class JaxrsFeatures {
 
 	@Bean("swagger2Feature")
 	public Feature swagger2Feature() {
-		/*
-		 * These can be added in application.yml classes-scan: true
-		 * classes-scan-packages: com.springboot,com.fasterxml.jackson.jaxrs
-		 */
 		Swagger2Feature result = new Swagger2Feature();
 		result.setTitle("Spring Boot + CXF + Swagger");
 		result.setDescription("Spring Boot + CXF + Swagger description");
